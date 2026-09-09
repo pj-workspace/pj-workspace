@@ -1,6 +1,6 @@
 <p align="center">
   <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/pjlab-profile-header-static.webp" />
+    <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/pj-workspace/pj-workspace/main/assets/pjlab-profile-header-static.webp" />
     <img src="./assets/pjlab-profile-header.webp" width="100%" alt="Pan Jie — From an idea to a working system" />
   </picture>
 </p>
