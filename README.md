@@ -3,8 +3,10 @@
 </p>
 
 <p align="center">
-  <a href="https://pjlab.top/en"><img src="https://img.shields.io/badge/PORTFOLIO-PJLAB.TOP-D5E7A5?style=for-the-badge&labelColor=202718" alt="PJLAB portfolio" /></a>
+  <a href="https://pjlab.top/"><img src="https://img.shields.io/badge/PORTFOLIO-PJLAB.TOP-D5E7A5?style=for-the-badge&labelColor=202718" alt="PJLAB portfolio" /></a>
   <a href="https://github.com/pj-workspace"><img src="https://img.shields.io/badge/GITHUB-PJ--WORKSPACE-FFFFFF?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=181717" alt="GitHub" /></a>
+  <a href="https://cursor.com/@jay-pan"><img src="https://img.shields.io/badge/CURSOR-@JAY--PAN-FFFFFF?style=for-the-badge&logo=cursor&logoColor=FFFFFF&labelColor=4B4B4B" alt="Cursor profile" /></a>
+  <a href="https://x.com/hiJZyBNTDCo8w97"><img src="https://img.shields.io/badge/X-FOLLOW-FFFFFF?style=for-the-badge&logo=x&logoColor=FFFFFF&labelColor=000000" alt="Follow Jay on X" /></a>
   <a href="mailto:Suzuya12138@gmail.com"><img src="https://img.shields.io/badge/EMAIL-LET'S_TALK-FFFFFF?style=for-the-badge&logo=gmail&logoColor=FFFFFF&labelColor=5B5BD6" alt="Email Jay" /></a>
 </p>
 
@@ -90,8 +92,9 @@ The best small utilities fit existing workflows and platform semantics instead o
 <p align="center">
   <strong>An idea worth building together?</strong><br />
   <sub>AI products · open-source projects · problems that are still taking shape</sub><br /><br />
-  <a href="https://pjlab.top/en">pjlab.top</a> ·
+  <a href="https://pjlab.top/">pjlab.top</a> ·
+  <a href="https://cursor.com/@jay-pan">cursor</a> ·
+  <a href="https://x.com/hiJZyBNTDCo8w97">x</a> ·
   <a href="mailto:Suzuya12138@gmail.com">email</a> ·
   <a href="https://gitee.com/Sunflower_PJ">gitee</a>
 </p>
-
