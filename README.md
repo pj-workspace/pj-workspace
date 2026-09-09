@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="./assets/pjlab-profile-header.svg" width="100%" alt="Pan Jie — From an idea to a working system" />
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/pjlab-profile-header-static.webp" />
+    <img src="./assets/pjlab-profile-header.webp" width="100%" alt="Pan Jie — From an idea to a working system" />
+  </picture>
 </p>
 
 <p align="center">
@@ -11,6 +14,22 @@
 </p>
 
 > I build at the intersection of **AI, data, and product engineering**—turning specific problems into systems people can actually use.
+
+<table>
+  <tr>
+    <td width="48%" valign="top">
+      <img src="./assets/current-signal.svg" width="100%" alt="Current focus: agent workspaces, multimodal tools, and robotics data operations" />
+    </td>
+    <td width="52%" valign="top">
+      <p><sub><strong>CONTRIBUTION SIGNAL / PJLAB TRACE</strong></sub></p>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pj-workspace/pj-workspace/output/pjlab-trace-dark.svg" />
+        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/pj-workspace/pj-workspace/output/pjlab-trace-light.svg" />
+        <img src="https://raw.githubusercontent.com/pj-workspace/pj-workspace/output/pjlab-trace-light.svg" width="100%" alt="PJLAB contribution trace generated from Jay's GitHub activity" />
+      </picture>
+    </td>
+  </tr>
+</table>
 
 ## About
 

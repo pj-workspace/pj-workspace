@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="148" viewBox="0 0 560 148" role="img" aria-labelledby="title desc">
+  <title id="title">Current signal</title>
+  <desc id="desc">Jay is building traceable agent workspaces, connecting multimodal tools to real workflows, and exploring robotics data operations.</desc>
+  <style>
+    .label { fill:#68727d; font:700 12px ui-monospace,SFMono-Regular,Menlo,monospace; letter-spacing:2.2px }
+    .copy { fill:#24292f; font:700 26px Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; letter-spacing:-.7px }
+    .note { fill:#68727d; font:400 12px Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif }
+    .dot { fill:#9db45e; transform-box:fill-box; transform-origin:center; animation:dot 2.8s ease-in-out infinite }
+    .phrase-1 { animation:phrase1 12s ease-in-out infinite }
+    .phrase-2 { opacity:0; animation:phrase2 12s ease-in-out infinite }
+    .phrase-3 { opacity:0; animation:phrase3 12s ease-in-out infinite }
+    @media (prefers-color-scheme:dark) {
+      .label,.note { fill:#8b949e }
+      .copy { fill:#eef1e9 }
+      .dot { fill:#d5e7a5 }
+    }
+    @media (prefers-reduced-motion:reduce) {
+      .dot,.phrase-1,.phrase-2,.phrase-3 { animation:none }
+      .phrase-1 { opacity:1 }
+      .phrase-2,.phrase-3 { opacity:0 }
+    }
+    @keyframes dot { 0%,100%{opacity:.55;transform:scale(.76)} 50%{opacity:1;transform:scale(1.15)} }
+    @keyframes phrase1 { 0%,26%{opacity:1;transform:translateY(0)} 31%,94%{opacity:0;transform:translateY(-6px)} 100%{opacity:1;transform:translateY(0)} }
+    @keyframes phrase2 { 0%,28%{opacity:0;transform:translateY(6px)} 34%,58%{opacity:1;transform:translateY(0)} 64%,100%{opacity:0;transform:translateY(-6px)} }
+    @keyframes phrase3 { 0%,61%{opacity:0;transform:translateY(6px)} 67%,91%{opacity:1;transform:translateY(0)} 97%,100%{opacity:0;transform:translateY(-6px)} }
+  </style>
+  <circle class="dot" cx="9" cy="13" r="5" />
+  <text class="label" x="25" y="17">CURRENT SIGNAL</text>
+  <g class="copy">
+    <g class="phrase-1">
+      <text x="0" y="64">Building traceable</text>
+      <text x="0" y="96">agent workspaces.</text>
+    </g>
+    <g class="phrase-2">
+      <text x="0" y="64">Connecting multimodal tools</text>
+      <text x="0" y="96">to real workflows.</text>
+    </g>
+    <g class="phrase-3">
+      <text x="0" y="64">Exploring robotics</text>
+      <text x="0" y="96">data operations.</text>
+    </g>
+  </g>
+  <text class="note" x="0" y="132">A slow editorial transition—not a terminal-style typing loop.</text>
+</svg>
