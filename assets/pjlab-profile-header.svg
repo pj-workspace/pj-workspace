@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+  <title id="title">Pan Jie — From an idea to a working system</title>
+  <desc id="desc">PJLAB profile banner for Pan Jie, a full-stack AI developer working across AI systems, digital experiences, and tools for real life.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10130f"/>
+      <stop offset="1" stop-color="#202718"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#d5e7a5" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#d5e7a5" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#f4f6ee" stroke-opacity="0.055"/>
+    </pattern>
+    <filter id="soft-glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="420" rx="24" fill="url(#background)"/>
+  <rect width="1280" height="420" rx="24" fill="url(#grid)"/>
+  <circle cx="1020" cy="204" r="238" fill="url(#glow)"/>
+
+  <g font-family="Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+    <text x="64" y="68" fill="#d5e7a5" font-size="14" font-weight="700" letter-spacing="3.5">PJLAB / PAN JIE</text>
+    <text x="64" y="155" fill="#f3f5ef" font-size="58" font-weight="740" letter-spacing="-2.2">FROM AN IDEA,</text>
+    <text x="64" y="220" fill="#d5e7a5" font-size="58" font-weight="740" letter-spacing="-2.2">TO A WORKING SYSTEM.</text>
+    <text x="67" y="277" fill="#bbc1b4" font-size="18" font-weight="440">Full-stack AI developer building across agents, data, robotics, and native tools.</text>
+
+    <g transform="translate(64 327)">
+      <rect width="180" height="37" rx="18.5" fill="#f3f5ef" fill-opacity="0.08" stroke="#f3f5ef" stroke-opacity="0.13"/>
+      <circle cx="20" cy="18.5" r="4" fill="#d5e7a5"/>
+      <text x="34" y="24" fill="#e9ece4" font-size="12" font-weight="650" letter-spacing="1.2">AI SYSTEMS</text>
+    </g>
+    <g transform="translate(256 327)">
+      <rect width="224" height="37" rx="18.5" fill="#f3f5ef" fill-opacity="0.08" stroke="#f3f5ef" stroke-opacity="0.13"/>
+      <circle cx="20" cy="18.5" r="4" fill="#b9b7ff"/>
+      <text x="34" y="24" fill="#e9ece4" font-size="12" font-weight="650" letter-spacing="1.2">DIGITAL EXPERIENCES</text>
+    </g>
+    <g transform="translate(492 327)">
+      <rect width="220" height="37" rx="18.5" fill="#f3f5ef" fill-opacity="0.08" stroke="#f3f5ef" stroke-opacity="0.13"/>
+      <circle cx="20" cy="18.5" r="4" fill="#7fd3c8"/>
+      <text x="34" y="24" fill="#e9ece4" font-size="12" font-weight="650" letter-spacing="1.2">TOOLS FOR REAL LIFE</text>
+    </g>
+  </g>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M860 208C912 141 972 123 1031 168C1084 209 1124 217 1184 164" stroke="#d5e7a5" stroke-opacity="0.42" stroke-width="1.5"/>
+    <path d="M850 252C921 306 1018 311 1081 248C1125 204 1165 206 1210 235" stroke="#b9b7ff" stroke-opacity="0.32" stroke-width="1.5"/>
+    <path d="M946 77C929 139 947 198 1008 238C1065 276 1092 315 1080 369" stroke="#7fd3c8" stroke-opacity="0.3" stroke-width="1.5"/>
+    <circle cx="860" cy="208" r="7" stroke="#d5e7a5" stroke-width="2"/>
+    <circle cx="1031" cy="168" r="11" stroke="#d5e7a5" stroke-width="2"/>
+    <circle cx="1184" cy="164" r="6" stroke="#d5e7a5" stroke-width="2"/>
+    <circle cx="850" cy="252" r="5" stroke="#b9b7ff" stroke-width="2"/>
+    <circle cx="1081" cy="248" r="14" stroke="#b9b7ff" stroke-width="2"/>
+    <circle cx="1210" cy="235" r="5" stroke="#b9b7ff" stroke-width="2"/>
+    <circle cx="946" cy="77" r="5" stroke="#7fd3c8" stroke-width="2"/>
+    <circle cx="1008" cy="238" r="6" stroke="#7fd3c8" stroke-width="2"/>
+    <circle cx="1080" cy="369" r="5" stroke="#7fd3c8" stroke-width="2"/>
+  </g>
+
+  <g fill="#d5e7a5" filter="url(#soft-glow)">
+    <circle cx="1031" cy="168" r="3"/>
+    <circle cx="1081" cy="248" r="3"/>
+  </g>
+
+  <g font-family="Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" fill="#f3f5ef" font-size="10" font-weight="650" letter-spacing="1.5">
+    <text x="1072" y="150">IDEA</text>
+    <text x="1099" y="270">SYSTEM</text>
+    <text x="1087" y="359">EXPERIENCE</text>
+  </g>
+
+  <path d="M1169 354h47M1192.5 330.5v47" stroke="#d5e7a5" stroke-width="1.5" stroke-opacity="0.75"/>
+</svg>
