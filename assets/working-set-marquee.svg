@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="48" viewBox="0 0 1280 48" role="img" aria-labelledby="title desc">
+  <title id="title">Jay's technology ticker</title>
+  <desc id="desc">A continuously moving typographic belt of Jay's primary technologies.</desc>
+
+  <defs>
+    <clipPath id="ticker-clip">
+      <rect width="1280" height="48" />
+    </clipPath>
+    <linearGradient id="scanner" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9db45e" stop-opacity="0" />
+      <stop offset=".5" stop-color="#9db45e" />
+      <stop offset="1" stop-color="#9db45e" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .rule { stroke:#d0d7de }
+    .word {
+      fill:#3d444d;
+      font:700 italic 19px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+      letter-spacing:1.2px;
+    }
+    .belt { animation:belt-right 36s linear infinite }
+    .scan { animation:scan-left 9s linear infinite }
+
+    @media (prefers-color-scheme:dark) {
+      .rule { stroke:#30363d }
+      .word { fill:#aeb6bf }
+    }
+
+    @media (prefers-reduced-motion:reduce) {
+      .belt,.scan { animation:none }
+      .belt { transform:translateX(0) }
+      .scan { opacity:0 }
+    }
+
+    @keyframes belt-right {
+      from { transform:translateX(-2300px) }
+      to { transform:translateX(0) }
+    }
+
+    @keyframes scan-left {
+      from { transform:translateX(1280px) }
+      to { transform:translateX(-320px) }
+    }
+  </style>
+
+  <line class="rule" x1="0" y1=".5" x2="1280" y2=".5" />
+
+  <g clip-path="url(#ticker-clip)">
+    <g class="belt">
+      <g id="technology-line">
+        <text class="word" x="24" y="32">TYPESCRIPT</text>
+        <text class="word" x="210" y="32">PYTHON</text>
+        <text class="word" x="350" y="32">REACT</text>
+        <text class="word" x="480" y="32">NEXT.JS</text>
+        <text class="word" x="640" y="32">VUE 3</text>
+        <text class="word" x="770" y="32">FASTAPI</text>
+        <text class="word" x="930" y="32">SPRING BOOT</text>
+        <text class="word" x="1140" y="32">POSTGRESQL</text>
+        <text class="word" x="1345" y="32">QDRANT</text>
+        <text class="word" x="1495" y="32">LANGGRAPH</text>
+        <text class="word" x="1685" y="32">RAG</text>
+        <text class="word" x="1790" y="32">MCP</text>
+        <text class="word" x="1900" y="32">SWIFTUI</text>
+        <text class="word" x="2065" y="32">APPKIT</text>
+        <text class="word" x="2200" y="32">DOCKER</text>
+      </g>
+      <use href="#technology-line" transform="translate(2300 0)" />
+    </g>
+
+    <line class="rule" x1="0" y1="46.5" x2="1280" y2="46.5" />
+    <rect class="scan" x="0" y="45.5" width="320" height="2" rx="1" fill="url(#scanner)" />
+  </g>
+</svg>
